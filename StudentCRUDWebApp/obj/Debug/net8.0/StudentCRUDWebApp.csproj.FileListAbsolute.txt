@@ -223,3 +223,4 @@ C:\dotnetProject\StudentCRUDWebApp\StudentCRUDWebApp\obj\Debug\net8.0\refint\Stu
 C:\dotnetProject\StudentCRUDWebApp\StudentCRUDWebApp\obj\Debug\net8.0\StudentCRUDWebApp.pdb
 C:\dotnetProject\StudentCRUDWebApp\StudentCRUDWebApp\obj\Debug\net8.0\StudentCRUDWebApp.genruntimeconfig.cache
 C:\dotnetProject\StudentCRUDWebApp\StudentCRUDWebApp\obj\Debug\net8.0\ref\StudentCRUDWebApp.dll
+C:\dotnetProject\StudentCRUDWebApp\StudentCRUDWebApp\obj\Debug\net8.0\StudentCRUDWebApp.sourcelink.json

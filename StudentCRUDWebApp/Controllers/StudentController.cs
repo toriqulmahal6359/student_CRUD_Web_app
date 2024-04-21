@@ -100,6 +100,23 @@ namespace StudentCRUDWebApp.Controllers
             return View(student);
         }
 
+        [HttpGet]
+        public IActionResult Delete(int id)
+        {
+            Student student = new Student();
+            HttpResponseMessage response = client.GetAsync(single_url + id).Result;
+            if (response.IsSuccessStatusCode)
+            {
+                string result = response.Content.ReadAsStringAsync().Result;
+                var data = JsonConvert.DeserializeObject<Student>(result);
+                if (data != null)
+                {
+                    student = data;
+                }
+            }
+            return View(student);
+        }
+
         [HttpPost, ActionName("Delete")]
         public IActionResult DeleteConfirmed(int id)
         {
